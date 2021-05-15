@@ -1,0 +1,73 @@
+*{
+     padding: 0;
+     margin: 0;
+ }
+
+ body{
+     font-size: 10px;
+     font-family: 'Roboto', serif;
+ }
+
+ div{
+     background: url(papel-velho.jpg) center no-repeat;
+     background-size: cover;
+     display: block;
+     max-width: 800px;  
+     margin: 40px auto;
+     min-height: 1024px;
+     padding: 40px 15px;
+     color: #252525;
+ }
+
+ h2{
+     text-align: center;
+     font-size: 4em;
+     font-weight: 300;
+     line-height: 50px;
+     margin-bottom: 50px;
+ }
+
+ p{
+     font-size: 2.5em;
+     text-align: justify;
+     line-height: 38px;
+     margin-bottom: 5px;
+ }
+
+ .saudacao-inicial{
+     margin-bottom: 80px;
+ }
+
+ .saudacao-final{
+     margin-top: 50px;
+ }
+
+ div p:nth-of-type(8){
+     font-style: italic;
+     margin-bottom: 100px;
+ }
+
+ .rodape{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items:center;
+ }
+
+ .rodape a{
+     color: #ffffff;
+     text-decoration: none;
+     background: #252525;
+     padding: 10px;
+     font-style: italic;
+     margin-left: 20px;
+     border-radius: 20px;
+ }
+ 
+ .rodape a:hover{
+     color: #252525;
+     background: #ffffff;
+     border: 3px solid black;
+     transition: 2s;
+     box-sizing: border-box;
+ }
